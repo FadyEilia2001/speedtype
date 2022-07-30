@@ -8,7 +8,7 @@ import { genreateRandomNumbers } from './utils';
 
 function App() {
 
-  const Starting_time = 10
+  const Starting_time = 20
 
   const [timer, setTimer] = useState(Starting_time)
   const [isTimeRunning, setIsTimeRunning] = useState(false)
