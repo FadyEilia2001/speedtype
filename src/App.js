@@ -118,6 +118,9 @@ function endGame() {
         
         </div>}
 
+          {!gameFinished && <div>
+            
+            </div>}
       <textarea 
         onChange={captureInput} 
         placeholder='Start Typing Here...' 

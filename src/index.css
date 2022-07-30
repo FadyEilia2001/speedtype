@@ -252,3 +252,9 @@ background-color: aliceblues;
   grid-column: span 13;
 }
 
+
+@media (max-height: 700px){
+  .app{
+    margin-top: 80px;
+  }
+}
