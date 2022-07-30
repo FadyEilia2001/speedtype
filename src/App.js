@@ -103,14 +103,14 @@ function endGame() {
         startGame={startGame}
         buttonText = {buttonText}
       />      
-      <div className='display-text'>
+      {!gameFinished && <div className='display-text'>
         <div className='scroller'>
           {displayWords.map((word, index) => {
             return <p className='word' key={index}>{word}</p>
           })}
 
         </div> 
-      </div>
+      </div>}
 
       {gameFinished && <div className='score'>
         <p className='result'>Total Words Typed: {userInput.length}</p>
